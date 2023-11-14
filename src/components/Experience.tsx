@@ -9,8 +9,6 @@ import { useInView } from "framer-motion";
 import { Element } from "react-scroll";
 import SlideIn from "./Animations/SlideIn";
 import { experiences } from "@/util/constants";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTerminal } from "@fortawesome/free-solid-svg-icons";
 
 const ExperienceItem = ({
   index,
