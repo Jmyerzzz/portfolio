@@ -1,6 +1,14 @@
+"use client";
+
 import { useEffect } from "react";
 import "overlayscrollbars/overlayscrollbars.css";
 import { useOverlayScrollbars } from "overlayscrollbars-react";
+import Header from "./Header";
+import Hero from "./Hero";
+import About from "./About";
+import Experience from "./Experience";
+import Contact from "./Contact";
+import GitHub from "./GitHub";
 
 export default function Main() {
   const [initBodyOverlayScrollbars] = useOverlayScrollbars({
@@ -17,5 +25,14 @@ export default function Main() {
     initBodyOverlayScrollbars(document.body);
   }, [initBodyOverlayScrollbars]);
 
-  return <div className="flex flex-col justify-center"></div>;
+  return (
+    <div className="flex flex-col justify-center">
+      <Header />
+      <Hero />
+      <About />
+      <Experience />
+      <Contact />
+      <GitHub />
+    </div>
+  );
 }

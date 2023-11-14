@@ -1,0 +1,32 @@
+export const skills = [
+  "NodeJS",
+  "Typescript",
+  "React",
+  "NextJS",
+  "ExpressJS",
+  "Python",
+  "PHP",
+  "YAML",
+  "SQL",
+  "MongoDB",
+  "Prisma",
+  "HTML",
+  "CSS",
+  "Tailwind",
+  "AWS",
+  "GitHub",
+  "Harness",
+  "Cypress",
+  "Wordpress",
+  "Docker",
+  "Swagger",
+  "Jenkins",
+];
+
+export const experiences = [
+  { test: "test" },
+  { test: "test" },
+  { test: "test" },
+  { test: "test" },
+  { test: "test" },
+];
