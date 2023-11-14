@@ -10,12 +10,19 @@ import { Element } from "react-scroll";
 import SlideIn from "./Animations/SlideIn";
 import { experiences } from "@/util/constants";
 
+type Experience = {
+  title: string;
+  company: string;
+  image: string;
+  date: string;
+};
+
 const ExperienceItem = ({
   index,
   experience,
 }: {
   index: number;
-  experience: Object;
+  experience: Experience;
 }) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
