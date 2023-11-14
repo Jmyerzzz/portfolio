@@ -5,19 +5,16 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 export default function GitHub() {
   return (
     <Element name="contact">
-      <section className="section-base flex flex-col items-center text-xl">
+      <section className="section-base mb-20 flex flex-col items-center text-xl">
         <span>Thanks for looking!</span>
-        <div className="flex">
+        <div className="flex items-center mt-2">
           See this code on
-          <div className="flex items-center">
-            <a href="https://github.com/Jmyerzzz/">
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="mx-2 hover:scale-105"
-              />
-            </a>
-            GitHub
-          </div>
+          <a href="https://github.com/Jmyerzzz/">
+            <div className="text-sky-300 hover:text-sky-400">
+              <FontAwesomeIcon icon={faGithub} className="mx-2" />
+              GitHub
+            </div>
+          </a>
         </div>
       </section>
     </Element>
