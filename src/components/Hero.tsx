@@ -33,7 +33,7 @@ export default function Hero() {
         </SlideIn>
         <SlideIn index={3} direction="y">
           <Link
-            to="contact"
+            to="contactme"
             spy={true}
             duration={1000}
             delay={100}

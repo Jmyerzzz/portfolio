@@ -5,7 +5,7 @@ import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 
 export default function Contact() {
   return (
-    <Element name="contact">
+    <Element name="contactme">
       <section className="section-base mb-20">
         <SlideIn>
           <div className="mb-4 pb-2 text-5xl font font-semibold border-b border-sky-400">

@@ -2,8 +2,6 @@ export const skills = [
   "NodeJS",
   "Typescript",
   "React",
-  "NextJS",
-  "ExpressJS",
   "Python",
   "PHP",
   "YAML",
@@ -12,6 +10,8 @@ export const skills = [
   "Prisma",
   "HTML",
   "CSS",
+  "NextJS",
+  "ExpressJS",
   "Tailwind",
   "AWS",
   "GitHub",
@@ -24,9 +24,28 @@ export const skills = [
 ];
 
 export const experiences = [
-  { test: "test" },
-  { test: "test" },
-  { test: "test" },
-  { test: "test" },
-  { test: "test" },
+  {
+    title: "Lead Software Engineer (Contractor)",
+    company: "Rave3 NFT",
+    image: "/r3.png",
+    date: "January 2023 - July 2023",
+  },
+  {
+    title: "Software Engineer - Applications",
+    company: "Symbiont.io (Ceased Operations)",
+    image: "/symbiont.png",
+    date: "June 2022 - December 2022",
+  },
+  {
+    title: "Software Engineer II",
+    company: "The Beachbody Company",
+    image: "/beachbody.png",
+    date: "September 2020 - June 2022",
+  },
+  {
+    title: "Software Engineer I",
+    company: "The Beachbody Company",
+    image: "/beachbody.png",
+    date: "July 2019 - September 2020",
+  },
 ];

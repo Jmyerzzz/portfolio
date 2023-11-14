@@ -9,7 +9,7 @@ export default function GitHub() {
         <span>Thanks for looking!</span>
         <div className="flex items-center mt-2">
           See this code on
-          <a href="https://github.com/Jmyerzzz/">
+          <a href="https://github.com/Jmyerzzz/portfolio">
             <div className="text-sky-300 hover:text-sky-400">
               <FontAwesomeIcon icon={faGithub} className="mx-2" />
               GitHub

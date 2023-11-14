@@ -1,6 +1,9 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import {
+  faLinkedin,
+  faGithub,
+  faGoogleDrive,
+} from "@fortawesome/free-brands-svg-icons";
 import { Link } from "react-scroll";
 
 export default function Header() {
@@ -34,7 +37,7 @@ export default function Header() {
         <Link
           className="nav-button"
           activeClass="active-nav"
-          to="contact"
+          to="contactme"
           spy={true}
           duration={1000}
           delay={100}
@@ -44,7 +47,7 @@ export default function Header() {
           Contact
         </Link>
       </div>
-      <div>
+      <div className="flex items-center">
         <a href="https://www.linkedin.com/in/jacksontmyers/">
           <FontAwesomeIcon
             icon={faLinkedin}
@@ -59,16 +62,18 @@ export default function Header() {
             className="mx-4 hover:scale-105"
           />
         </a>
-        <button className="group px-3 py-1 tracking-wider uppercase font-semibold text-xl border-2 border-sky-400 rounded hover:border-sky-500">
-          <div className="flex items-center">
-            Resume
-            <FontAwesomeIcon
-              icon={faDownload}
-              size="sm"
-              className="ml-2 group-hover:text-sky-500"
-            />
-          </div>
-        </button>
+        <div className="group px-3 py-1 tracking-wider uppercase font-semibold text-xl border-2 border-sky-400 rounded hover:border-sky-500">
+          <a href="https://docs.google.com/document/d/1HhtEDs3dytMP20NRiRn1OmuPhrYAqjPv/edit?usp=sharing&ouid=105790028207016397179&rtpof=true&sd=true">
+            <div className="flex items-center">
+              Resume
+              <FontAwesomeIcon
+                icon={faGoogleDrive}
+                size="sm"
+                className="ml-2 group-hover:text-sky-500"
+              />
+            </div>
+          </a>
+        </div>
       </div>
     </header>
   );

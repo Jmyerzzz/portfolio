@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import Image from "next/image";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -28,14 +29,22 @@ const ExperienceItem = ({
       contentArrowStyle={{
         borderRight: "7px solid  rgb(33, 150, 243)",
       }}
-      date="2011 - present"
-      iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-      icon={<FontAwesomeIcon icon={faTerminal} className="mr-2 text-sky-400" />}
+      date={experience.date}
+      iconStyle={{ background: "white", color: "#fff" }}
+      icon={
+        <Image
+          src={experience.image}
+          alt="exp"
+          width={100}
+          height={100}
+          draggable={false}
+        />
+      }
       visible={inView}
     >
       <div ref={ref}>
-        <h3 className="text-white text-2xl">safghgefwqefwgrergfw</h3>
-        <p>{experience["test"]}</p>
+        <h3 className="text-white text-2xl">{experience.title}</h3>
+        <h4>{experience.company}</h4>
       </div>
     </VerticalTimelineElement>
   );
