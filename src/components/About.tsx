@@ -30,8 +30,8 @@ export default function About() {
           </h1>
         </SlideIn>
         <SlideIn>
-          <div className="grid grid-cols-3 gap-x-2">
-            <p className="col-span-2">
+          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-3 gap-y-6 lg:gap-x-2">
+            <p className="lg:col-span-2">
               fybnjkmbhugvycyvub hinjokmbuvgfcgvuh binjokmibhgvfc
               gvbhjnomkkoihbug vyfghbnjkmnib hugvyfyghubijnfyb njkmbhugvycyvub
               hinjokmbuvgfcg vuhbinjokm ibhgvfcgvbhjn omkkoihbu gvyfghb jkmnibhu

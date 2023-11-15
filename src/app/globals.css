@@ -23,7 +23,7 @@ body {
 
 @layer components {
   .section-base {
-    @apply max-w-[1150px] mx-auto mt-20 p-20 text-zinc-100;
+    @apply max-w-[1150px] mx-auto mt-20 p-5 lg:p-20 text-zinc-100;
   }
   .nav-button {
     @apply border-b-2 border-transparent hover:text-sky-300 hover:border-b-2 hover:border-zinc-100 hover:scale-105 cursor-pointer;

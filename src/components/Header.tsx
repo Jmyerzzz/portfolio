@@ -8,8 +8,8 @@ import { Link } from "react-scroll";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 z-20 flex justify-between items-center min-w-full px-7 py-4 bg-zinc-900/30 backdrop-blur-md text-zinc-100">
-      <nav className="uppercase text-xl">
+    <header className="fixed top-0 left-0 z-20 flex justify-between items-center min-w-[100dvw] px-2 lg:px-7 py-2 lg:py-4 bg-zinc-900/30 backdrop-blur-md text-zinc-100">
+      <nav className="uppercase text-sm lg:text-xl">
         <Link
           className="nav-button"
           activeClass="active-nav"
@@ -23,7 +23,7 @@ export default function Header() {
           About
         </Link>
         <Link
-          className="mx-4 nav-button"
+          className="mx-2 lg:mx-4 nav-button"
           activeClass="active-nav"
           to="experience"
           spy={true}

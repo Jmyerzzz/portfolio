@@ -7,14 +7,14 @@ import { Link } from "react-scroll";
 
 export default function Hero() {
   return (
-    <section className="section-base mt-40">
-      <div className="mr-80 my-5 min-w-fit relative z-10">
+    <section className="section-base lg:mt-40">
+      <div className="lg:mr-80 my-5 min-w-fit relative z-10">
         <SlideIn index={0} direction="y">
           <span className="text-8xl font-semibold text-sky-400">Hey, </span>
           <span className="text-8xl font-semibold">I&apos;m Jackson</span>
         </SlideIn>
         <SlideIn index={1} direction="y">
-          <h2 className="flex items-center my-8 ml-7 text-5xl font-semibold">
+          <h2 className="flex items-center my-8 ml-5 lg:ml-7 text-3xl lg:text-5xl font-semibold">
             <FontAwesomeIcon icon={faAnglesRight} size="xs" className="mr-2" />
             Full Stack Engineer
           </h2>
@@ -49,7 +49,7 @@ export default function Hero() {
           </Link>
         </SlideIn>
       </div>
-      <div className="absolute top-40 right-40">
+      <div className="absolute invisible lg:visible top-40 right-40">
         <SlideIn index={3} direction="x">
           <Image
             src="/test_pic.png"
