@@ -47,9 +47,9 @@ const ExperienceItem = ({
       }
       visible={inView}
     >
-      <div ref={ref}>
-        <h3 className="text-white text-2xl">{experience.title}</h3>
-        <h4>{experience.company}</h4>
+      <div ref={ref} className="text-white">
+        <h3 className="text-2xl">{experience.title}</h3>
+        <h4 className="text-xl">{experience.company}</h4>
       </div>
     </VerticalTimelineElement>
   );
@@ -60,9 +60,9 @@ export default function Experience() {
     <Element name="experience">
       <section className="section-base">
         <SlideIn>
-          <div className="mb-4 pb-2 text-5xl font font-semibold border-b border-sky-400">
+          <h1 className="mb-4 pb-2 text-5xl font font-semibold border-b border-sky-400">
             Work Experience
-          </div>
+          </h1>
         </SlideIn>
         <SlideIn>
           <VerticalTimeline>

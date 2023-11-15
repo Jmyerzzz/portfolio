@@ -25,13 +25,13 @@ export default function About() {
     <Element name="about">
       <section className="section-base">
         <SlideIn>
-          <div className="mb-4 pb-2 text-5xl font font-semibold border-b border-sky-400">
+          <h1 className="mb-4 pb-2 text-5xl font font-semibold border-b border-sky-400">
             About
-          </div>
+          </h1>
         </SlideIn>
         <SlideIn>
           <div className="grid grid-cols-3 gap-x-2">
-            <div className="col-span-2">
+            <p className="col-span-2">
               fybnjkmbhugvycyvub hinjokmbuvgfcgvuh binjokmibhgvfc
               gvbhjnomkkoihbug vyfghbnjkmnib hugvyfyghubijnfyb njkmbhugvycyvub
               hinjokmbuvgfcg vuhbinjokm ibhgvfcgvbhjn omkkoihbu gvyfghb jkmnibhu
@@ -39,7 +39,7 @@ export default function About() {
               mibhgvfcgvbhjno mkkoihb ugvyfghbnjkmnibhugvy fyghubijnfybnjkmbhugv
               ycyvubhinjokmbuvgfc gvuhbinjokmi bhgvfcgvbhjnom kkoihbugvyfghbnj
               kmnibhugvyfyghubijnf ybnjkmbhugvycyvubhin
-            </div>
+            </p>
             <div className="flex flex-col">
               <div className="flex items-center mb-2 text-xl">
                 <FontAwesomeIcon

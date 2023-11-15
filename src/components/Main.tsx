@@ -26,13 +26,13 @@ export default function Main() {
   }, [initBodyOverlayScrollbars]);
 
   return (
-    <div className="flex flex-col justify-center">
+    <main className="flex flex-col justify-center">
       <Header />
       <Hero />
       <About />
       <Experience />
       <Contact />
       <GitHub />
-    </div>
+    </main>
   );
 }

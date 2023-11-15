@@ -9,7 +9,7 @@ import { Link } from "react-scroll";
 export default function Header() {
   return (
     <header className="fixed top-0 left-0 z-20 flex justify-between items-center min-w-full px-7 py-4 bg-zinc-900/30 backdrop-blur-md text-zinc-100">
-      <div className="uppercase text-xl">
+      <nav className="uppercase text-xl">
         <Link
           className="nav-button"
           activeClass="active-nav"
@@ -46,7 +46,7 @@ export default function Header() {
         >
           Contact
         </Link>
-      </div>
+      </nav>
       <div className="flex items-center">
         <a href="https://www.linkedin.com/in/jacksontmyers/">
           <FontAwesomeIcon
@@ -63,15 +63,16 @@ export default function Header() {
           />
         </a>
         <div className="group px-3 py-1 tracking-wider uppercase font-semibold text-xl border-2 border-sky-400 rounded hover:border-sky-500">
-          <a href="https://docs.google.com/document/d/1HhtEDs3dytMP20NRiRn1OmuPhrYAqjPv/edit?usp=sharing&ouid=105790028207016397179&rtpof=true&sd=true">
-            <div className="flex items-center">
-              Resume
-              <FontAwesomeIcon
-                icon={faGoogleDrive}
-                size="sm"
-                className="ml-2 group-hover:text-sky-500"
-              />
-            </div>
+          <a
+            href="https://docs.google.com/document/d/1HhtEDs3dytMP20NRiRn1OmuPhrYAqjPv/edit?usp=sharing&ouid=105790028207016397179&rtpof=true&sd=true"
+            className="flex items-center"
+          >
+            Resume
+            <FontAwesomeIcon
+              icon={faGoogleDrive}
+              size="sm"
+              className="ml-2 group-hover:text-sky-500"
+            />
           </a>
         </div>
       </div>
