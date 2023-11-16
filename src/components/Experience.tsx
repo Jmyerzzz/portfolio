@@ -9,6 +9,7 @@ import { useInView } from "framer-motion";
 import { Element } from "react-scroll";
 import SlideIn from "./Animations/SlideIn";
 import { experiences } from "@/util/constants";
+import useDarkMode from "use-dark-mode";
 
 type Experience = {
   title: string;
@@ -26,13 +27,17 @@ const ExperienceItem = ({
 }) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
+  const darkMode = useDarkMode(false);
 
   return (
     <VerticalTimelineElement
       key={index}
-      contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
+      contentStyle={{
+        background: "rgb(14, 165, 233)",
+        color: `${darkMode.value ? "#fff" : "#333"}`,
+      }}
       contentArrowStyle={{
-        borderRight: "7px solid  rgb(33, 150, 243)",
+        borderRight: "7px solid  rgb(14, 165, 233)",
       }}
       date={experience.date}
       iconStyle={{ background: "white", color: "#fff" }}
@@ -47,15 +52,17 @@ const ExperienceItem = ({
       }
       visible={inView}
     >
-      <div ref={ref} className="text-white">
-        <h3 className="text-2xl">{experience.title}</h3>
-        <h4 className="text-xl">{experience.company}</h4>
+      <div ref={ref}>
+        <h3 className="text-2xl text-white">{experience.title}</h3>
+        <h4 className="text-xl text-zinc-800">{experience.company}</h4>
       </div>
     </VerticalTimelineElement>
   );
 };
 
 export default function Experience() {
+  const darkMode = useDarkMode(false);
+
   return (
     <Element name="experience">
       <section className="section-base">
@@ -65,7 +72,7 @@ export default function Experience() {
           </h1>
         </SlideIn>
         <SlideIn>
-          <VerticalTimeline>
+          <VerticalTimeline lineColor={`${darkMode.value ? "#fff" : "#333"}`}>
             {experiences.map((experience, index) => {
               return (
                 <ExperienceItem

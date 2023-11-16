@@ -9,7 +9,7 @@ export default function GitHub() {
         See this code on
         <a
           href="https://github.com/Jmyerzzz/portfolio"
-          className="text-sky-300 hover:text-sky-400"
+          className="text-sky-400 hover:text-sky-400"
         >
           <FontAwesomeIcon icon={faGithub} className="mx-2" />
           GitHub

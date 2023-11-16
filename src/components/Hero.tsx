@@ -56,7 +56,7 @@ export default function Hero() {
             alt="portrait"
             width={700}
             height={700}
-            className="mr-20 grayscale"
+            className="mr-20 grayscale drop-shadow-[0_0px_35px_rgba(0,0,0,0.25)]"
             draggable={false}
             priority={true}
           />

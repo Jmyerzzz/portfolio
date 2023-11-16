@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 :root {
-  --background-rgb: 24, 24, 27;
+  --background-rgb: 228, 228, 231;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -23,12 +23,12 @@ body {
 
 @layer components {
   .section-base {
-    @apply max-w-[1150px] mx-auto mt-20 p-5 lg:p-20 text-zinc-100;
+    @apply max-w-[1150px] mx-auto mt-20 p-5 lg:p-20 text-zinc-800 dark:text-zinc-100;
   }
   .nav-button {
-    @apply border-b-2 border-transparent hover:text-sky-300 hover:border-b-2 hover:border-zinc-100 hover:scale-105 cursor-pointer;
+    @apply border-b-2 border-transparent hover:text-sky-400 hover:border-b-2 hover:border-zinc-800 dark:hover:border-zinc-100 hover:scale-105 cursor-pointer;
   }
   .active-nav {
-    @apply text-sky-300 border-b-2 border-zinc-100;
+    @apply text-sky-400 border-b-2 border-zinc-800 dark:border-zinc-100;
   }
 }
