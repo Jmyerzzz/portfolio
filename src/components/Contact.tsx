@@ -18,7 +18,7 @@ export default function Contact() {
               If you want to connect, you can find me on{" "}
               <a
                 href="https://www.linkedin.com/in/jacksontmyers/"
-                className="text-sky-400"
+                className="text-sky-400 hover:text-sky-500"
               >
                 LinkedIn
               </a>

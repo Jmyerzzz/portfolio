@@ -27,7 +27,7 @@ const ExperienceItem = ({
 }) => {
   const ref = useRef(null);
   const inView = useInView(ref, { once: true });
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(true);
 
   return (
     <VerticalTimelineElement
@@ -40,7 +40,7 @@ const ExperienceItem = ({
         borderRight: "7px solid  rgb(14, 165, 233)",
       }}
       date={experience.date}
-      iconStyle={{ background: "white", color: "#fff" }}
+      iconStyle={{ background: "#fff", color: "#fff" }}
       icon={
         <Image
           src={experience.image}
@@ -61,7 +61,7 @@ const ExperienceItem = ({
 };
 
 export default function Experience() {
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(true);
 
   return (
     <Element name="experience">

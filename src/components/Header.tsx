@@ -52,14 +52,14 @@ export default function Header() {
           <FontAwesomeIcon
             icon={faLinkedin}
             size="xl"
-            className="hover:scale-105"
+            className="hover:scale-105 hover:text-sky-500"
           />
         </a>
         <a href="https://github.com/Jmyerzzz/">
           <FontAwesomeIcon
             icon={faGithub}
             size="xl"
-            className="mx-4 hover:scale-105"
+            className="mx-4 hover:scale-105 hover:text-sky-500"
           />
         </a>
         <div className="group px-3 py-1 tracking-wider uppercase font-semibold text-xl border-2 border-sky-400 rounded hover:border-sky-500">
