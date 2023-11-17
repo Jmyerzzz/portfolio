@@ -7,8 +7,8 @@ import { Oswald } from "next/font/google";
 const oswald = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
-  description: "Jackson Myers",
+  title: "Jackson Myers",
+  description: "Portfolio",
 };
 
 export default async function RootLayout({
