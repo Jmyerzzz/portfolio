@@ -20,15 +20,11 @@ export default function Hero() {
           </h2>
         </SlideIn>
         <SlideIn index={2} direction="y">
-          <p className="max-w-[700px] whitespace-normal">
-            fybnjkmbhugvycyvubhinjokmbuvgfcgvuh
-            binjokmibhgvfcgvbhjnomkkoihbugvyfghbnjkmnib
-            hugvyfyghubijnfybnjkmbhugvycyvub hinjokmbuvgfcgvuhbinjokm
-            ibhgvfcgvbhjnomkkoihbu gvyfghbnjkmnibhu
-            gvyfyghubijnfybnjkmbhugvycyvubhinjokmbuvgfcgvuhbinjok
-            mibhgvfcgvbhjnomkkoihb ugvyfghbnjkmnibhugvyfyghubijnfybnjkmbhugv
-            ycyvubhinjokmbuvgfcgvuhbinjokmi bhgvfcgvbhjnomkkoihbugvyfghbnj
-            kmnibhugvyfyghubijnf ybnjkmbhugvycyvubhin
+          <p className="max-w-[700px] text-xl font-light tracking-wide">
+            Since graduating with my computer science degree in 2019, I&apos;ve
+            worked as a full stack software engineer for a few different
+            companies. I&apos;m currently looking for a new full time role after
+            doing some freelance work. Let&apos;s connect!
           </p>
         </SlideIn>
         <SlideIn index={3} direction="y">
