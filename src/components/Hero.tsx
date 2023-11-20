@@ -45,7 +45,7 @@ export default function Hero() {
           </Link>
         </SlideIn>
       </div>
-      <div className="absolute invisible lg:visible top-40 right-40">
+      {/* <div className="absolute invisible lg:visible top-40 right-40">
         <SlideIn index={3} direction="x">
           <Image
             src="/test_pic.png"
@@ -57,7 +57,7 @@ export default function Hero() {
             priority={true}
           />
         </SlideIn>
-      </div>
+      </div> */}
     </section>
   );
 }

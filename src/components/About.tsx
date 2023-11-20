@@ -53,8 +53,8 @@ export default function About() {
               <p>
                 Outside of work I enjoy fitness, whether that&apos;s mountain
                 biking, snowboarding, or being in the gym. You can find me at
-                live music on the weekends. I&apos;m a big fan of jam bands like
-                Dead & Company and Goose.
+                live music events on the weekends. I&apos;m a big fan of jam
+                bands like Dead & Company and Goose.
               </p>
             </div>
             <div className="flex flex-col">
