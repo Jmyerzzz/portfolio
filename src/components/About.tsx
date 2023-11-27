@@ -30,7 +30,7 @@ export default function About() {
           </h1>
         </SlideIn>
         <SlideIn>
-          <div className="grid grid-rows-2 lg:grid-rows-1 lg:grid-cols-3 gap-y-6 lg:gap-x-6">
+          <div className="grid lg:grid-cols-3 gap-y-6 lg:gap-x-6 auto-rows-min">
             <div className="lg:col-span-2 text-2xl font-extralight tracking-wide">
               <p>
                 My name is Jackson Myers and I&apos;m a software engineer from
@@ -57,7 +57,7 @@ export default function About() {
                 bands like Dead & Company and Goose.
               </p>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col h-fit">
               <div className="flex items-center mb-2 text-xl">
                 <FontAwesomeIcon
                   icon={faTerminal}
