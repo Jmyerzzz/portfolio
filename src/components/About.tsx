@@ -38,7 +38,7 @@ export default function About() {
                 in Los Angeles, where I remained for work for the the following
                 four years. I&apos;ve primarily worked with Node, Python, and
                 React with a stronger focus on backend, but I am keen to expand
-                my repetoire and work with whatever the job requires.
+                my repertoire and work with whatever the job requires.
               </p>
               <br />
               <p>
